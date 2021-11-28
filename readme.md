@@ -15,4 +15,5 @@ per a fer la compra</p>
 <ul>
 <li> Si el mail no te un format adequat salta un avís</li>
 <li> Si la targeta de crèdit no te un format adequat salta un avís</li>
+<li> Adaptació mobil (en chrome dona errors)</li>
 </ul>

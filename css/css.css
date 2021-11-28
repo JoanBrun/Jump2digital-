@@ -99,6 +99,11 @@ body{
     font-size: 15px;
     font-weight: bold;
 }
+.dreta{
+    margin-left: 85%;
+    margin-top: -3.1%;
+    float: left;
+}
 .img_form{
     width: 30px;
     height: 20px;
@@ -116,6 +121,54 @@ body{
 
 /* Adaptabilitat mòbil */
 @media screen and (max-width: 480px){
-
-
+    section{
+        width: 100%;
+        float: left;
+        background-color: white;
+    }
+    .color1{
+        box-shadow: none;
+        height: 100%;
+    }
+    .color2{
+        box-shadow: none;
+        height: 100%;
+    }
+    .terms{
+        display: none;
+    }
+    .fl{
+        float: none;
+    }
+    .mac{
+        width: 100%;
+    }
+    .inner{
+        padding: 0px;
+    }
+    .marg{
+        margin-left: 0px;
+    }
+    .pay{
+        margin-top: 30px;
+    }
+    .new_mac{
+        margin-left: 0px;
+    }
+    .price{
+        margin-left: 0px;
+    }
+    .img_form{
+        display: none;
+    }
+    .w48{
+        width: 46%;
+        float: left;
+    }
+    .w99{
+        width: 96%;
+    }
+    hr{
+        display: none;
+    }
 }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minimalistic checkout</title>
+    <link href="css/css.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <section class="w50 fl m0a color1">
+        <div class="inner">
+            <div class="marg">
+                <span><img src="images/atras.png" class="icon">Back to the marquet</span>
+                <p class="new_mac">New mac</p>
+                <p class="price">$ 899.00</p>
+            </div>
+            <div class="w100">
+                <img src="images/macbookpro16.png" class="mac">
+            </div>
+            <div class="w100 terms">
+                <pre>Powered by <img src="images/redsys.png" class="redsys"> |      Terms       Privacy</pre>
+            </div>
+        </div>
+    </section>
+
+    <section class="w50 fl m0a color2">
+        <div class="inner">
+            <div class="w100 pay">
+                <span><img src="images/mac_icon.png" class="icon">Pay</span>
+            </div>
+
+            <div class="card">
+                <hr width=43% class="fl"><p class="fl line">Or pay with card</p><hr width=43% class="fl">
+            </div><br>
+
+            <form class="w100">
+                <div for="mail" class="label">Email</div>
+                <input type="email" id="mail" name="mail" class="etiqueta w99 fl" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                       title="Introdueix un format de mail adequat"><br><br>
+
+                <div for="target" class="label">Country or region</div>
+                <input type="tel" id="target" name="target" placeholder="1234 1234 1234 1234" class="etiqueta w99 fl"
+                       inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19"
+                       title="Introdueix un format de targeta de credit adequat">
+                <img src="images/amex.jpg" class="img_form"> <img src="images/mastercard.png" class="img_form"> <img src="images/visa.jpg" class="img_form">
+                <br>
+                <input type="text" id="date" name="date" placeholder="MM/YY" class="w48 fl etiqueta">
+                <input type="text" id="cvc" name="cvc" placeholder="CVC" class="w48 fl etiqueta">
+                <img src="images/cvv.png" class="img_form">
+                <br><br>
+
+                <div for="card" class="label">Name on card</div>
+                <input type="text" id="card" name="card" class="etiqueta w99 fl"><br><br>
+
+                <div class="label">Country or region</div>
+                <select class="etiqueta w100 fl" name="Lista Paises" >
+                    <option>United States</option>
+                    <option>França</option>
+                    <option>Alemania</option>
+                    <option>Dinamarca</option>
+                    <option>España</option>
+                    <option>Noruega</option>
+                </select>
+                <input type="text" id="zip" name="cvc" placeholder="ZIP" class="etiqueta w99 fl"><br><br>
+
+                <input type="submit" value="Pay $899.00" class="submit w100">
+            </form>
+
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,121 @@
+/* classes generals */
+body{
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+.oa{
+    overflow: auto;
+}
+.m0a{
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.inner {
+    padding: 70px;
+}
+.w100{
+    width: 100%;
+}
+.w50{
+    width: 50%;
+}
+.marg{
+    margin-left: 50px;
+}
+.color1{
+    box-shadow: 0px 0px 10px #8c8d98;
+    height: 900px;
+}
+.color2{
+    box-shadow: 0px 0px 30px #8c8d98;
+    height: 900px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+/* pàgina mac */
+.new_mac{
+    margin-top: 40px;
+    color: #8c8d98;
+    margin-left: 40px;
+}
+.price{
+    margin-left: 40px;
+    font-size: 30px;
+    color: #31364f;
+    font-weight: bolder;
+}
+.mac{
+    text-align: center;
+    width: 100%;
+}
+.terms{
+    margin-top: 100px;
+    text-align: center;
+    color: #8c8d98;
+}
+.redsys{
+    width: 50px;
+    height: 20px;
+    margin-right: 30px;
+}
+
+/* formulari */
+
+.pay{
+    background-color: #050505;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+.card{
+    margin-top: 40px;
+    color: #8c8d98;
+    text-align: center;
+}
+.etiqueta{
+    border: #8c8d98 1px solid;
+    border-radius: 7px;
+    padding: 10px 0px 10px 5px;
+}
+.w99{
+    width: 99%;
+}
+.w48{
+    width: 49%;
+}
+.line{
+    margin-top: -2px;
+}
+.label{
+    color: #31364f;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.img_form{
+    width: 30px;
+    height: 20px;
+    margin-top: -3.5%;
+    margin-right: 10px;
+    float: right;
+}
+.submit{
+    background-color: #31364f;
+    color: #8c8d98;
+    margin-top: 30px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 7px;
+}
+
+/* Adaptabilitat mòbil */
+@media screen and (max-width: 480px){
+
+
+}

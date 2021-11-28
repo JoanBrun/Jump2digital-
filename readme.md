@@ -8,6 +8,8 @@ Joan Brun Isart
 <p>La pàgina web consta d'un checkout una part on mostrem un mac i una altre on introdueixes les dades
 per a fer la compra</p>
 
+<p>Les imatges i els colors són semblants al resultat</p>
+
 ### Funcionalitats de la pàgina:
 
 <ul>
